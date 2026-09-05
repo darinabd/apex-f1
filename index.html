@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Apex F1 — race weekends, standings and driver stories.">
+  <title>Apex F1 — Dashboard</title>
+  <link rel="icon" href="images/apex-logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,500;0,600;0,700;0,800;0,900;1,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#dashboard" aria-label="Apex F1 home"><img src="images/apex-logo.svg" alt="Apex F1"></a>
+    <button class="menu-button" aria-expanded="false" aria-controls="main-nav">MENU</button>
+    <nav id="main-nav" aria-label="Main navigation">
+      <a href="#dashboard" data-route="dashboard">Dashboard</a>
+      <a href="#calendar" data-route="calendar">Calendar</a>
+      <a href="#standings" data-route="standings">Standings</a>
+      <a href="#race" data-route="race">Race</a>
+      <a href="#drivers" data-route="drivers">Drivers</a>
+      <a href="#favorites" data-route="favorites">Favorites <span class="favorite-count">0</span></a>
+    </nav>
+    <div class="season"><span id="data-status">Mock data</span><strong id="season-year">2025</strong></div>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <footer>
+    <a class="brand brand--small" href="#dashboard"><img src="images/apex-logo.svg" alt="Apex F1"></a>
+    <p>Independent Formula 1 fan experience. Live data with an offline fallback.</p>
+    <p>© <span id="copyright-year"></span> APEX F1</p>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/favorites.js"></script>
+  <script src="js/race.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

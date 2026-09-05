@@ -1,0 +1,11 @@
+<svg width="236" height="64" viewBox="0 0 236 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Apex F1 logo</title>
+  <desc id="desc">Angular letter A with a red racing line and Apex F1 wordmark</desc>
+  <path d="M7 52 29 10h14l22 42H50l-4.5-9H25L20.5 52H7Z" fill="white"/>
+  <path d="m30 33 5.4-11 5.3 11H30Z" fill="#090909"/>
+  <path d="M5 57h52c13 0 21-4 27-13" stroke="#EF1B2D" stroke-width="6" stroke-linecap="square"/>
+  <path d="m75 39 12 5-7-12-5 7Z" fill="#EF1B2D"/>
+  <text x="91" y="42" fill="white" font-family="Arial Black, Arial, sans-serif" font-size="31" font-weight="900" font-style="italic" letter-spacing="-2">APEX</text>
+  <rect x="187" y="17" width="41" height="30" rx="2" fill="#EF1B2D"/>
+  <text x="193" y="40" fill="white" font-family="Arial Black, Arial, sans-serif" font-size="21" font-weight="900" font-style="italic">F1</text>
+</svg>

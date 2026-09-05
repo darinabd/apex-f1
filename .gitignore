@@ -1,0 +1,14 @@
+.DS_Store
+.idea/
+.vscode/
+node_modules/
+npm-debug.log*
+
+# ChatGPT project metadata and synced reference material
+.agents/
+.codex/
+AGENTS.md
+sources/
+
+# A separate, unrelated local project
+habit-streak-tracker/
